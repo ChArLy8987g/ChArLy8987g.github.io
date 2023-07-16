@@ -147,7 +147,9 @@ main {
     grid-template-columns: repeat(4, 1fr);
     gap: 1rem;
 }
-
+.producto{
+    transition: all .5s;
+}
 .producto:hover{
      box-shadow: 0 10px 20px rgba(0,0,0,0.20);
      transform: scale(1.2);
